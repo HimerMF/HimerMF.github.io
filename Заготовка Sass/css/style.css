@@ -80,3 +80,44 @@ ul {
   cursor: pointer;
   box-shadow: 0 14px 28px rgba(88,62,76,0.22), 0 10px 10px rgba(88,62,76,0.20);
 }
+
+.bestsell{
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.best-title{
+  font-size: 32px;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.new-title{
+  font-size: 32px;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.new{
+  padding: 50px 0;
+}
+
+.book-button{
+  display: block;
+  margin: 10px auto;
+}
+
+.book-title{
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.book-author{
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
