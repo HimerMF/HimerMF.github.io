@@ -7,7 +7,10 @@ body, html {
   
   font-family: 'Roboto', sans-serif;
 }
-
+a{
+  text-decoration: none;
+  color: black;
+}
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
@@ -16,7 +19,17 @@ h1, h2, h3, h4, h5, h6, p {
 h1, h2, h3, h4, h5, h6{
   font-family: 'Source Sans Pro', sans-serif;
 }
-
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.book-link{
+  color: #fff;
+  margin-top: 20px;
+}
 .main-wrapper{
   display: flex;
   justify-content: space-between;
@@ -27,13 +40,7 @@ h1, h2, h3, h4, h5, h6{
 .logo{
   height: 120px;
 }
-li {
-  list-style: none;
-}
-ul {
-  padding: 0;
-  margin: 0;
-}
+
 /*контейнер*/
 .container {
   width: 85%;
@@ -44,7 +51,7 @@ ul {
 .menu-list {
   
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   margin: 0;
@@ -79,8 +86,14 @@ ul {
 .btn:hover{
   cursor: pointer;
   box-shadow: 0 14px 28px rgba(88,62,76,0.22), 0 10px 10px rgba(88,62,76,0.20);
+  background-color: #BF1D21;
 }
-
+.reg-btn:hover{
+  background-color: #0D6F1E;
+}
+.reg-btn{
+  background-color: #33A146;
+}
 .bestsell{
   background-color: #f9f9f9;
   padding: 50px 0;
