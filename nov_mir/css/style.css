@@ -57,6 +57,13 @@ ul {
 .menu-link {
   text-decoration: none;
 }
+.menu-item:hover{
+  text-decoration: underline;
+
+}
+.menu-item{
+  font-size: 110%;
+}
 .book-wr{
   display: -webkit-flex;
   display: -moz-flex;
@@ -131,9 +138,7 @@ ul {
   text-align: center;
 }
 
-.book-link{
-  color: #fff;
-}
+
 
 #order-l{
   color: white;
@@ -141,7 +146,7 @@ ul {
 
 .book_main{
   background-color: #f9f9f9;
-  padding: 50px;
+  padding: 50px 10px;
 }
 
 .book_cont{
@@ -210,8 +215,40 @@ ul {
   -webkit-background-size: 100%;
   background-size: 100%;
 }
-
 .book_cont-wr{
   display: inline-block;
   vertical-align: top;
+}
+.form-title{
+  margin: 0 auto;
+}
+.form{
+  margin: 50px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+}
+.form-cont-wr{
+  margin: 0 auto;
+  height: 100%
+}
+.form_main{
+  padding: 100px 10px;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+.form-input{
+  width: 80%;
+  padding: 10px 0px;
+  margin: 10px 40px;
+}
+.forget-password{
+  text-align: center;
+}
+
+.footer{
+  background-color: #cccccc;
+  padding: 10px 0;
+  text-align: center;
 }
