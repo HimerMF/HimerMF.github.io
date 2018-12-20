@@ -231,22 +231,32 @@ ul {
 }
 .form-cont-wr{
   margin: 0 auto;
-  height: 100%
+  
 }
 .form_main{
-  padding: 100px 10px;
-  height: 100%;
+ /* padding-top: 100px;*/
+  height: 100vh;
   background-color: #f9f9f9;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
 }
 .form-input{
   width: 80%;
-  padding: 10px 0px;
+  padding: 10px;
   margin: 10px 40px;
 }
 .forget-password{
   text-align: center;
 }
-
+.name, .password{
+  box-sizing: border-box;
+}
 .footer{
   background-color: #cccccc;
   padding: 10px 0;
