@@ -304,6 +304,8 @@ ul {
 
 .top-desc-p{
   margin-top: 10px;
+  text-align: justify;
+  text-indent: 25px;
 }
 
 .top-desc-btn{
@@ -312,8 +314,30 @@ ul {
 
 .top-item{
   margin-top: 30px;
+  /*margin-left: 18px;*/
 }
+.top-item::before{
+  content: counter(num) '. ';
+  counter-increment: num;
+  font-size: 22px;
+  font-weight: bold;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+}
+.top-list{
+  list-style-type: none;
+  counter-reset: num;
 
+}
+.top-title {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.top-author{
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 
 
